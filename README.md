@@ -38,19 +38,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
-*Mobile first means to design the layout with the mobile layout in mind first and then work up to the desktop layout. Desktop first is the opposite*
+*Mobile first means to design the layout with the mobile layout in mind first and then work up to the desktop layout. Desktop first is the opposite, focus on building the desktop layout first and then building the mobile layout.*
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-*`font-size:62.5%` in the `html` sets the `font-size` relative to the user's browser; using this value makes calculation of font sizes easier to do with `rem` units, as `rem` units are units relative to that root element value. Using 62.5% for `font-size` allows us, in effect, to have it so that `1rem` can be `10px`*
+*`font-size:62.5%` in the `html` sets the `font-size` relative to the user's browser; using this value makes calculation of font sizes easier to do with `rem` units, as `rem` units are units relative to that root element value. Using 62.5% for `font-size` in `html` allows us, in effect, to have it so that `1rem` can be `10px` and `1.6rem` is `16px`*
 
 4. How would you describe preprocessing to someone new to CSS?
 
 *Preprocessing allows us to write CSS rules in a more human readable logical format (sometimes across several files) that is then "compiled" into a single CSS document. Instead of writing long convoluted CSS style rules like `.class1 .class2 selector1 selector2 id` we can nest or group sets of associated rules together, along with media queries. *
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-*My favorite concept in preprocessing is nesting, followed by variables. The concept that gives me the most trouble are mixins; not because I do not understand them and what they do, but I have trouble understanding when strategically to best deploy them*
 
+*My favorite concept in preprocessing is nesting, followed by variables. The concept that gives me the most trouble are mixins; not because I do not understand them and what they do, but I have trouble understanding when strategically to best deploy them*
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -130,7 +130,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [X] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

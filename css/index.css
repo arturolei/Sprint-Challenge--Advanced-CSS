@@ -186,7 +186,7 @@ p {
 }
 @media (max-width:500px) {
   .navigation h1 {
-    padding: 2%;
+    padding: 2.5%;
   }
 }
 .navigation nav {
@@ -211,7 +211,7 @@ p {
   font-size: 1.7rem;
   text-decoration: none;
   color: #5E6164;
-  padding: 0 1.3%;
+  padding: 0 1.65%;
 }
 @media (max-width:500px) {
   .navigation nav a {
