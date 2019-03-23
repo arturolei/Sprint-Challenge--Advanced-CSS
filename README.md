@@ -33,15 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+
 *An adaptive website has fixed settings and layouts for certain devices (predefined layouts for predefined viewports); in other words, it has media queries designed for several possible devices. A fully responsive design is in theory a design that responds to the size of the browser at any given point for any given browser/viewport size; in other words, a responsive design aims to work no matter the screen size*
 
 2. Describe what it means to be mobile first vs desktop first.
+
 *Mobile first means to design the layout with the mobile layout in mind first and then work up to the desktop layout. Desktop first is the opposite*
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
 *`font-size:62.5%` in the `html` sets the `font-size` relative to the user's browser; using this value makes calculation of font sizes easier to do with `rem` units, as `rem` units are units relative to that root element value. Using 62.5% for `font-size` allows us, in effect, to have it so that `1rem` can be `10px`*
 
 4. How would you describe preprocessing to someone new to CSS?
+
 *Preprocessing allows us to write CSS rules in a more human readable logical format (sometimes across several files) that is then "compiled" into a single CSS document. Instead of writing long convoluted CSS style rules like `.class1 .class2 selector1 selector2 id` we can nest or group sets of associated rules together, along with media queries. *
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
@@ -63,12 +67,12 @@ Follow these steps to set up your project:
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Add your project manager as a reviewer on the pull-request *3/23/19: Added PM as collaborator, PM needs to accept invite*
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
 
@@ -116,15 +120,15 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [X]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [X] Create a hover state that swaps the background color and font color of the base button styles. *Comment: So the font color becomes the background color?*
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [X] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [X] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
