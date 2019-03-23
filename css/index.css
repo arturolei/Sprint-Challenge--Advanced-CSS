@@ -366,3 +366,111 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+/*Stretch Goal 1: 
+Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+*/
+.about {
+  /*Styles for "Let's Go for A Walk IN SPACE!!! Section"*/
+}
+.about .intro {
+  /*Styling for img that I added*/
+}
+.about .intro h2 {
+  padding: 15px;
+}
+.about .intro p {
+  padding: 0 15px;
+}
+.about .intro img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about .walk {
+  margin-top: 60px;
+  border-top: 1px solid #dee2e6;
+  padding: 4% 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .about .walk {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    width: 100%;
+    padding: 4% 0%;
+  }
+}
+.about .walk .walk-text {
+  width: 50%;
+}
+@media (max-width:500px) {
+  .about .walk .walk-text {
+    width: 90.5%;
+  }
+}
+.about .walk .walk-text h3 {
+  margin-bottom: 10px;
+}
+.about .walk .walk-text p {
+  margin-bottom: 26px;
+}
+.about .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F6F6;
+  width: 28%;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 2.5% 3%;
+  border-radius: 5px;
+  /*
+    CSS for the button hover state. 
+    The instructions state: "Create a hover state that swaps the background color and font color of the base button styles."
+    I assume this meant that the color of the background would switch with the font color of the button.
+    */
+}
+.about .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: #F6F6F6;
+}
+@media (max-width:500px) {
+  .about .walk .walk-text .btn {
+    background-color: #22283A;
+    color: #F6F6F6;
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 2.5% 3%;
+    border-radius: 5px;
+    /*
+    CSS for the button hover state. 
+    The instructions state: "Create a hover state that swaps the background color and font color of the base button styles."
+    I assume this meant that the color of the background would switch with the font color of the button.
+    */
+    padding: 6% 3%;
+  }
+  .about .walk .walk-text .btn:hover {
+    color: #22283A;
+    background-color: #F6F6F6;
+  }
+}
+.about .walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+@media (max-width:500px) {
+  .about .walk .walk-img {
+    width: 91%;
+    /*Used mixin to center image*/
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+}
+.about .walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
