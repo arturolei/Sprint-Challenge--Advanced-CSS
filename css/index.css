@@ -211,7 +211,7 @@ p {
   font-size: 1.7rem;
   text-decoration: none;
   color: #5E6164;
-  padding: 0 1.4%;
+  padding: 0 1.5%;
 }
 @media (max-width:500px) {
   .navigation nav a {
