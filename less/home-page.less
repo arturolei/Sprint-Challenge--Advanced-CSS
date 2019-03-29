@@ -11,6 +11,11 @@
     p {
       padding:0 15px;
     }
+    /*Styling for img that I added*/
+    img{
+      width:100%;
+      border-radius: 10px;
+    }
   
   }
 
@@ -24,6 +29,19 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      /*For mobile, make all but one image, the image with class "blast" dissappear*/
+      @media @phone{
+        &.blast{
+          width: 90%;
+          margin: 20px auto;
+        }
+        &.sky{
+          display:none;
+        }
+        &.launch{
+          display:none;
+        }
+      }
     }
   }
 
@@ -39,6 +57,7 @@
     }
   }
 
+  /*Styles for "Let's Go for A Walk Section"*/
   .walk {
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
@@ -46,8 +65,18 @@
     display: flex;
     justify-content: center;
 
+    @media @phone{
+      .flex(@flex-direction: column-reverse);
+      margin-top:3%;
+      width:100%;
+      padding:4% 0%;
+    }
+
     .walk-text {
       width: 50%;
+      @media @phone{
+        width:90.5%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -58,18 +87,31 @@
       }
 
       .btn {
+        .button(@width:28%, @font-size:1.7rem);
+        @media @phone{
+          .button(@width:100%);
+          padding: 6% 3%;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone{
+        width:91%;
+        /*Used mixin to center image*/
+        .center();
+        margin-bottom:4%;
+      }
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
       }
+      
     }
   }
 }// home
